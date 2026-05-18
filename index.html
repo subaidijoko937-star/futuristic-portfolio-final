@@ -199,15 +199,16 @@
             Contact Me
         </h2>
 
-        <form class="contact-form">
+        <!-- Ganti "email-anda@domain.com" dengan alamat email asli Anda -->
+        <form action="https://formsubmit.co/marvelraditya621@gmail.com" method="POST" class="contact-form">
 
-            <input type="text" placeholder="Your Name">
+            <input type="text" name="name" placeholder="Your Name" required>
 
-            <input type="email" placeholder="Your Email">
+            <input type="email" name="email" placeholder="Your Email" required>
 
-            <textarea placeholder="Your Message"></textarea>
+            <textarea name="message" placeholder="Your Message" required></textarea>
 
-            <button class="btn primary">
+            <button type="submit" class="btn primary">
                 Send Message
             </button>
 
