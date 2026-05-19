@@ -587,3 +587,13 @@ nav ul li a:hover {
         display: none;
     }
 }
+
+/* MOVING TEXT */
+.moving-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #00e5ff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
